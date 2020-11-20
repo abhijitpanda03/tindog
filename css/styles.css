@@ -1,0 +1,161 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* h1,h2,h3{
+    font-family: 'Montserrat', sans-serif;
+} */
+p{
+    color: #8f8f8f;
+}
+
+/* Heading */
+
+.big-heading{
+    line-height: 1.5;
+    font-size: 3.5rem ;
+}
+.section-heading{
+    line-height: 1.5;
+    font-size: 3.5rem ;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+
+/*color for section*/
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+/* Title-section & NavBar-section */
+
+#title{
+    
+    text-align: left;
+}
+.container-fluid{
+    padding: 3% 15% 6%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg); /*rotating the image by 25 deg*/
+    position: absolute;
+    right: 28%;
+}
+
+/* Features-Section */
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+/* .feature-box{
+} */
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* Testimonial-Section */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+    
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.testomonial-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* Press-section */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing-Section */
+
+#pricing{
+    padding: 100px 100px 50px;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+.price-text{
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* Call to Action-Section */
+
+.cta-heading{
+    font-size: 3.2rem;
+}
+
+/* Footer-Section */
+
+.cta-footer{
+    padding: 5% 15% 2.5%; /*padding for cta and footer*/
+}
+.social-icon{
+    margin: 20px 15px;
+}
+
+/* for adapting the port with image and text less than 1120px and change its orientation*/
+@media (max-width: 1120px){
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 65%;
+    }
+    #title-text{
+        text-align: center;
+    }
+    .big-heading{
+        font-size: 2.5rem;
+    }
+    .navbar{
+        font-size: 1rem;
+        padding-bottom:3rem;
+    }
+}
